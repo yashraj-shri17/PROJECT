@@ -1,0 +1,31 @@
+body{
+  background-color:pink;
+}
+
+
+.container{
+  background-color: black;
+  display:flex;
+  flex-direction:row-reverse;
+  border:5px solid black;
+  /* justify-content: space-around; */
+  size:20px;
+  column-gap: 20px;
+
+
+}
+button{
+  height: 30px;
+  width:80px;
+  
+  /* background-color: rgb(192, 205, 50); */
+}
+a{
+  text-decoration: none;
+  color: brown;
+}
+button:hover{
+
+  border:2px solid red;
+  background-color: chartreuse;
+}
